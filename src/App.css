@@ -1,0 +1,42 @@
+.wn-top-container {
+  min-height: 300px;
+  background-image: url('bg-header.jpg');
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  text-align: center;
+}
+
+.wn-title {
+  max-width: 768px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.wn-title h1 {
+  font-size: 3.2em;
+}
+
+.wn-title p {
+  font-size: 1.4em;
+}
+
+.wn-text-area-box {
+  max-width: 768px;
+  width: 100%;
+  margin: -80px auto 0 !important;
+}
+
+.wn-result-box {
+  background-color: #e3e5e2 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .ui.fluid.container {margin-left: 0 !important; margin-right: 0 !important;}
+}
+
+@media only screen and (max-width: 480px) {
+  .wn-title {padding:30px 20px;}
+  .wn-title h1 {font-size: 2.6em;}
+}
